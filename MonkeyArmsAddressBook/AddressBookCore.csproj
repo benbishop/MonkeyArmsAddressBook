@@ -8,7 +8,7 @@
     <ProjectGuid>{B5319CFC-AAB9-4252-9084-84D42051F926}</ProjectGuid>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>MonkeyArmsAddressBook</RootNamespace>
+    <RootNamespace>MonkeyArms.AddressBook.Core</RootNamespace>
     <AssemblyName>MonkeyArmsAddressBook</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile136</TargetFrameworkProfile>
