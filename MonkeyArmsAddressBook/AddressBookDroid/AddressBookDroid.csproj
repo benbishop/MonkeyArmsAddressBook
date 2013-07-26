@@ -62,5 +62,9 @@
       <Project>{B5319CFC-AAB9-4252-9084-84D42051F926}</Project>
       <Name>AddressBookCore</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MonkeyArms\MonkeyArms\MonkeyArmsFramework\MonkeyArmsFramework.csproj">
+      <Project>{A58D8DAE-62D2-40C4-9361-5BAF30CF1747}</Project>
+      <Name>MonkeyArmsFramework</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

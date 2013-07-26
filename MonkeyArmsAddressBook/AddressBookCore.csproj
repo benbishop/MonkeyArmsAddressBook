@@ -41,4 +41,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="MonkeyArms\MonkeyArms\MonkeyArmsFramework\MonkeyArmsFramework.csproj">
+      <Project>{A58D8DAE-62D2-40C4-9361-5BAF30CF1747}</Project>
+      <Name>MonkeyArmsFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
