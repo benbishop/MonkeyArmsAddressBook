@@ -5,6 +5,7 @@ using MonkeyArms.LockedAddressBook.Core.Models;
 namespace MonkeyArms.LockedAddressBook.Tests.Models
 {
 	[TestFixture("John", "Doe")]
+	[TestFixture("Jane", "Smith")]
 	public class PersonModelTests
 	{
 		string TestFirstName, TestLastName;

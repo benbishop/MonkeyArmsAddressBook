@@ -111,6 +111,21 @@ Execution time: 0.33ms</Message>
 
 Execution time: 0.30ms</Message>
     </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2013-07-26T14:53:38</TestDate>
+      <Status />
+      <Passed>6</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Test successful
+
+Execution time: 0.31ms</Message>
+    </UnitTestResult>
   </Results>
   <Tests>
     <TestRecord Name="MonkeyArms">
@@ -224,6 +239,21 @@ Execution time: 0.32ms</Message>
           <Message>Test successful
 
 Execution time: 0.30ms</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2013-07-26T14:53:38</TestDate>
+          <Status />
+          <Passed>6</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Test successful
+
+Execution time: 0.31ms</Message>
         </UnitTestResult>
       </Results>
       <Tests>
@@ -797,6 +827,21 @@ Execution time: 0.01ms</Message>
 
 Execution time: 0.30ms</Message>
             </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2013-07-26T14:53:38</TestDate>
+              <Status />
+              <Passed>6</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Test successful
+
+Execution time: 0.31ms</Message>
+            </UnitTestResult>
           </Results>
           <Tests>
             <TestRecord Name="Tests">
@@ -828,6 +873,21 @@ Execution time: 0.30ms</Message>
                   <Message>Test successful
 
 Execution time: 0.30ms</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-26T14:53:38</TestDate>
+                  <Status />
+                  <Passed>6</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.31ms</Message>
                 </UnitTestResult>
               </Results>
               <Tests>
@@ -863,6 +923,21 @@ Execution time: 0.35ms</Message>
 
 Execution time: 0.28ms</Message>
                     </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-07-26T14:53:38</TestDate>
+                      <Status />
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                    </UnitTestResult>
                   </Results>
                   <Tests>
                     <TestRecord Name="PasswordViewMediatorTests">
@@ -897,6 +972,21 @@ Execution time: 0.35ms</Message>
 
 Execution time: 0.28ms</Message>
                         </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-07-26T14:53:38</TestDate>
+                          <Status />
+                          <Passed>2</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.29ms</Message>
+                        </UnitTestResult>
                       </Results>
                       <Tests>
                         <TestRecord Name="assert_ShowIncorrectPasswordPrompt_invoked_when_LoginSubmitted_raised_with_bad_password">
@@ -920,6 +1010,23 @@ Execution time: 0.25ms</Message>
                             </UnitTestResult>
                             <UnitTestResult>
                               <TestDate>2013-07-26T14:50:27</TestDate>
+                              <Status />
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.21ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-07-26T14:53:38</TestDate>
                               <Status />
                               <Passed>1</Passed>
                               <Errors>0</Errors>
@@ -973,6 +1080,23 @@ Execution time: 0.01ms</Message>
                               <ConsoleOutput />
                               <ConsoleError />
                             </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-07-26T14:53:38</TestDate>
+                              <Status />
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
                           </Results>
                         </TestRecord>
                       </Tests>
@@ -998,6 +1122,21 @@ Execution time: 0.01ms</Message>
                       <TestDate>2013-07-26T14:50:27</TestDate>
                       <Status />
                       <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-07-26T14:53:38</TestDate>
+                      <Status />
+                      <Passed>4</Passed>
                       <Errors>0</Errors>
                       <Failures>0</Failures>
                       <Inconclusive>0</Inconclusive>
@@ -1041,6 +1180,21 @@ Execution time: 0.01ms</Message>
 
 Execution time: 0.01ms</Message>
                         </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-07-26T14:53:38</TestDate>
+                          <Status />
+                          <Passed>4</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                        </UnitTestResult>
                       </Results>
                       <Tests>
                         <TestRecord Name="PersonModelTests(&quot;John&quot;,&quot;Doe&quot;)">
@@ -1072,6 +1226,21 @@ Execution time: 0.01ms</Message>
                               <Message>Test successful
 
 Execution time: 0.01ms</Message>
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-07-26T14:53:38</TestDate>
+                              <Status />
+                              <Passed>2</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.00ms</Message>
                             </UnitTestResult>
                           </Results>
                           <Tests>
@@ -1113,6 +1282,23 @@ Execution time: 0.00ms</Message>
                                   <ConsoleOutput />
                                   <ConsoleError />
                                 </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2013-07-26T14:53:38</TestDate>
+                                  <Status />
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
                               </Results>
                             </TestRecord>
                             <TestRecord Name="assert_LastName_gets_set_via_constructor">
@@ -1138,6 +1324,86 @@ Execution time: 0.00ms</Message>
                                 </UnitTestResult>
                                 <UnitTestResult>
                                   <TestDate>2013-07-26T14:50:27</TestDate>
+                                  <Status />
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                                <UnitTestResult>
+                                  <TestDate>2013-07-26T14:53:38</TestDate>
+                                  <Status />
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                              </Results>
+                            </TestRecord>
+                          </Tests>
+                        </TestRecord>
+                        <TestRecord Name="PersonModelTests(&quot;Jane&quot;,&quot;Smith&quot;)">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2013-07-26T14:53:38</TestDate>
+                              <Status />
+                              <Passed>2</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                            </UnitTestResult>
+                          </Results>
+                          <Tests>
+                            <TestRecord Name="assert_FirstName_gets_set_via_constructor">
+                              <Results>
+                                <UnitTestResult>
+                                  <TestDate>2013-07-26T14:53:38</TestDate>
+                                  <Status />
+                                  <Passed>1</Passed>
+                                  <Errors>0</Errors>
+                                  <Failures>0</Failures>
+                                  <Inconclusive>0</Inconclusive>
+                                  <NotRunnable>0</NotRunnable>
+                                  <Skipped>0</Skipped>
+                                  <Ignored>0</Ignored>
+                                  <Time />
+                                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                                  <ConsoleOutput />
+                                  <ConsoleError />
+                                </UnitTestResult>
+                              </Results>
+                            </TestRecord>
+                            <TestRecord Name="assert_LastName_gets_set_via_constructor">
+                              <Results>
+                                <UnitTestResult>
+                                  <TestDate>2013-07-26T14:53:38</TestDate>
                                   <Status />
                                   <Passed>1</Passed>
                                   <Errors>0</Errors>
