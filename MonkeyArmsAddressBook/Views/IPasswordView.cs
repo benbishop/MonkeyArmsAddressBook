@@ -1,6 +1,6 @@
 using System;
 
-namespace MonkeyArms.AddressBook.Core.Views
+namespace MonkeyArms.LockedAddressBook.Core.Views
 {
 	public interface IPasswordView:IMediatorTarget
 	{

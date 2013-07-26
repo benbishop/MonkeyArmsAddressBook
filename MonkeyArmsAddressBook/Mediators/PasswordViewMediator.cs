@@ -1,7 +1,7 @@
 using System;
-using MonkeyArms.AddressBook.Core.Views;
+using MonkeyArms.LockedAddressBook.Core.Views;
 
-namespace MonkeyArms.AddressBook.Core.Mediators
+namespace MonkeyArms.LockedAddressBook.Core.Mediators
 {
 	public class PasswordViewMediator:Mediator
 	{

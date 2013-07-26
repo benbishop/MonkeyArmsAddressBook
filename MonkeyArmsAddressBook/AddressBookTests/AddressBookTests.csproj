@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{28F4CC5C-2305-47DE-853F-F1C76D045AC7}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>MonkeyArms.AddressBook.Tests</RootNamespace>
+    <RootNamespace>MonkeyArms.LockedAddressBook.Tests</RootNamespace>
     <AssemblyName>AddressBookTests</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mediators\PasswordViewMediatorTests.cs" />
+    <Compile Include="Models\PersonModelTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -62,5 +63,6 @@
   </ProjectExtensions>
   <ItemGroup>
     <Folder Include="Mediators\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>

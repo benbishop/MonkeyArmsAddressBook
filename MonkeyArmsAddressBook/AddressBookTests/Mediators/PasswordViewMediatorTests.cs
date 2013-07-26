@@ -1,10 +1,10 @@
 using System;
 using NUnit.Framework;
 using Moq;
-using MonkeyArms.AddressBook.Core.Views;
-using MonkeyArms.AddressBook.Core.Mediators;
+using MonkeyArms.LockedAddressBook.Core.Views;
+using MonkeyArms.LockedAddressBook.Core.Mediators;
 
-namespace MonkeyArms.AddressBook.Tests.Mediators
+namespace MonkeyArms.LockedAddressBook.Tests.Mediators
 {
 	[TestFixture()]
 	public class PasswordViewMediatorTests

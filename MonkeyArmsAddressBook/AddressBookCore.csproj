@@ -8,7 +8,7 @@
     <ProjectGuid>{B5319CFC-AAB9-4252-9084-84D42051F926}</ProjectGuid>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>MonkeyArms.AddressBook.Core</RootNamespace>
+    <RootNamespace>MonkeyArms.LockedAddressBook.Core</RootNamespace>
     <AssemblyName>MonkeyArmsAddressBook</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile136</TargetFrameworkProfile>
@@ -43,6 +43,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\IPasswordView.cs" />
     <Compile Include="Mediators\PasswordViewMediator.cs" />
+    <Compile Include="Models\Person.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
@@ -54,6 +55,7 @@
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Mediators\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
