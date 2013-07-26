@@ -2,7 +2,7 @@ using System;
 
 namespace MonkeyArms.AddressBook.Core.Views
 {
-	public interface IPasswordView
+	public interface IPasswordView:IMediatorTarget
 	{
 		event EventHandler PasswordSubmitted;
 
