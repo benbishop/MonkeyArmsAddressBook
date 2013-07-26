@@ -1,18 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/IPasswordView.cs">
-    <Files>
-      <File FileName="Views/IPasswordView.cs" Line="1" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="AddressBookCore" expanded="True">
-            <Node name="Views" expanded="True" />
-          </Node>
+          <Node name="AddressBookCore" expanded="True" selected="True" />
           <Node name="AddressBookDroid" expanded="True" />
           <Node name="AddressBookIOS" expanded="True" />
-          <Node name="AddressBookTests" expanded="True" selected="True" />
+          <Node name="AddressBookTests" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
