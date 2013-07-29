@@ -86,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
-    <Folder Include="Commands\" />
+    <Folder Include="Delegates\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -98,7 +98,8 @@
     <Compile Include="AddressBookIOSViewController.designer.cs">
       <DependentUpon>AddressBookIOSViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Commands\GetContactsCommand.cs" />
+    <Compile Include="Delegates\GetContactsDelegate.cs" />
+    <Compile Include="TestController.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="AddressBookIOSViewController.xib" />
