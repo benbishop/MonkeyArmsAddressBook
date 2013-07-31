@@ -2,6 +2,8 @@
 [Bb]in/
 [Oo]bj/
 
+*.DS_Store
+
 # mstest test results
 TestResults
 

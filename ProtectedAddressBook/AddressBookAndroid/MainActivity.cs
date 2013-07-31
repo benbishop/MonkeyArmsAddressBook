@@ -5,12 +5,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-using MonkeyArms.LockedAddressBook.Delegates;
-using Xamarin.Contacts;
 
-namespace MonkeyArms.LockedAddressBook.Android
+namespace AddressBookAndroid
 {
-	[Activity (Label = "AddressBookDroid", MainLauncher = true)]
+	[Activity (Label = "AddressBookAndroid", MainLauncher = true)]
 	public class MainActivity : Activity
 	{
 		int count = 1;
@@ -18,8 +16,6 @@ namespace MonkeyArms.LockedAddressBook.Android
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
-			GetContactsDelegate.ABook = new AddressBook(this.ApplicationContext);
 
 			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);

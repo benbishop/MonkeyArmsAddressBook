@@ -1,11 +1,12 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Xamarin.Contacts;
+
 using System.Text;
 using MonkeyArms.LockedAddressBook.Core.Commands;
 using System.Collections.Generic;
 using MonkeyArms.LockedAddressBook.Core.Models;
+using Xamarin.Contacts;
 
 namespace MonkeyArms.LockedAddressBook.Delegates
 {
@@ -31,6 +32,7 @@ namespace MonkeyArms.LockedAddressBook.Delegates
 
 		public void Execute ()
 		{
+
 			var abook = new AddressBook();
 
 
