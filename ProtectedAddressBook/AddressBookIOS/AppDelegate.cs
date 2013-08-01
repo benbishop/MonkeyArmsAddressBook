@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using MonkeyArms.LockedAddressBook.Core.Config;
+using MonkeyArms;
+using MonkeyArms.LockedAddressBook.Delegates;
+using MonkeyArms.LockedAddressBook.Core.Commands;
 
 namespace AddressBookIOS
 {
@@ -24,6 +28,10 @@ namespace AddressBookIOS
 		//
 		public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 		{
+			//MonkeyArms framewokr configuration
+			BaseAppContext.Init();
+			DI.MapClassToInterface<GetContactsDelegate, IGetContactsDelegate>();
+
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 			
 			viewController = new AddressBookIOSViewController ();
