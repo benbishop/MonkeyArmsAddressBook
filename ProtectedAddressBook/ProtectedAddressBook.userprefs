@@ -1,21 +1,30 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AddressBookAndroid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AddressBookTests/Mediators/ContactDetailsViewMediatorTests.cs">
     <Files>
-      <File FileName="AddressBookAndroid/MainActivity.cs" Line="11" Column="22" />
+      <File FileName="AddressBookCore/ViewModels/ContactDetailsViewModel.cs" Line="9" Column="17" />
+      <File FileName="AddressBookCore/Mediators/ContactDetailsViewMediator.cs" Line="30" Column="46" />
+      <File FileName="AddressBookCore/Views/IContactDetailsView.cs" Line="6" Column="54" />
+      <File FileName="AddressBookTests/Mediators/ContactDetailsViewMediatorTests.cs" Line="45" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="AddressBookAndroid" expanded="True" selected="True">
-            <Node name="Delegates" expanded="True" />
-          </Node>
-          <Node name="AddressBookIOS" expanded="True">
-            <Node name="Delegates" expanded="True" />
+          <Node name="AddressBookCore" expanded="True">
+            <Node name="Commands" expanded="True" />
+            <Node name="Invokers" expanded="True" />
+            <Node name="Mediators" expanded="True" />
+            <Node name="Models" expanded="True" />
+            <Node name="ViewModels" expanded="True" />
+            <Node name="Views" expanded="True" />
           </Node>
           <Node name="AddressBookTests" expanded="True">
+            <Node name="Mediators" expanded="True">
+              <Node name="ContactDetailsViewMediatorTests.cs" selected="True" />
+            </Node>
             <Node name="Models" expanded="True" />
           </Node>
+          <Node name="MonkeyArmsFramework" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -36,5 +45,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AddressBookAndroid />
 </Properties>

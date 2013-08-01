@@ -41,6 +41,7 @@
     <Compile Include="Mediators\PasswordViewMediatorTests.cs" />
     <Compile Include="Models\PersonModelTests.cs" />
     <Compile Include="Mediators\ContactsListViewMediatorTests.cs" />
+    <Compile Include="Mediators\ContactDetailsViewMediatorTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

@@ -43,6 +43,9 @@
     <Compile Include="Mediators\ContactsListViewMediator.cs" />
     <Compile Include="Views\IContactsListView.cs" />
     <Compile Include="Invokers\SetSelectedContactInvoker.cs" />
+    <Compile Include="ViewModels\ContactDetailsViewModel.cs" />
+    <Compile Include="Mediators\ContactDetailsViewMediator.cs" />
+    <Compile Include="Views\IContactDetailsView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
