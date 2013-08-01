@@ -6,7 +6,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
-namespace AddressBookAndroid
+namespace MonkeyArms.LockedAddressBook.Android
 {
 	[Activity (Label = "AddressBookAndroid", MainLauncher = true)]
 	public class MainActivity : Activity

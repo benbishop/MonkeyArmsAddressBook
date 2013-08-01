@@ -9,6 +9,8 @@ namespace MonkeyArms.LockedAddressBook.Core.Commands
 		event EventHandler PersonsAccessed;
 
 		List<Person> Persons{ get;}
+
+		void Execute();
 	}
 }
 

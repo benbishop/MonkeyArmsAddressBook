@@ -37,6 +37,12 @@
     <Compile Include="Mediators\PasswordViewMediator.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Views\IPasswordView.cs" />
+    <Compile Include="Invokers\GetContactsInvoker.cs" />
+    <Compile Include="ViewModels\ContactsListViewModel.cs" />
+    <Compile Include="Commands\GetContactsCommand.cs" />
+    <Compile Include="Mediators\ContactsListViewMediator.cs" />
+    <Compile Include="Views\IContactsListView.cs" />
+    <Compile Include="Invokers\SetSelectedContactInvoker.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
@@ -44,6 +50,8 @@
     <Folder Include="Mediators\" />
     <Folder Include="Models\" />
     <Folder Include="Views\" />
+    <Folder Include="Invokers\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib">

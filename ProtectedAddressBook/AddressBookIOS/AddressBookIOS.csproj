@@ -8,7 +8,7 @@
     <ProjectGuid>{ECA73CA4-3A1E-431E-B546-1B61EAD1D609}</ProjectGuid>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AddressBookIOS</RootNamespace>
+    <RootNamespace>MonkeyArms.LockedAddressBook.IOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>AddressBookIOS</AssemblyName>
   </PropertyGroup>
@@ -106,7 +106,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <XamarinComponentReference Include="xamarin.mobile">
-      <InstallationInProgress>True</InstallationInProgress>
+      <InstallationInProgress>False</InstallationInProgress>
       <Version>0.6.3</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
@@ -121,4 +121,13 @@
       <Name>MonkeyArmsFramework</Name>
     </ProjectReference>
   </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <DotNetNamingPolicy DirectoryNamespaceAssociation="PrefixedHierarchical" ResourceNamePolicy="FileFormatDefault" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
 </Project>
