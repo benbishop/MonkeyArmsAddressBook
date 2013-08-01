@@ -7,11 +7,11 @@ namespace MonkeyArms.LockedAddressBook.Core.ViewModels
 	public class ContactsListViewModel
 	{
 
-		public virtual event EventHandler ContactsChanged;
+		public virtual event EventHandler ContactsChanged = delegate {};
 
 		private List<Person> contacts;
 
-		public List<Person> Contacts {
+		public virtual List<Person> Contacts {
 			get {
 				return contacts;
 			}

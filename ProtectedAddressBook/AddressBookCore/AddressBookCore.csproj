@@ -46,6 +46,8 @@
     <Compile Include="ViewModels\ContactDetailsViewModel.cs" />
     <Compile Include="Mediators\ContactDetailsViewMediator.cs" />
     <Compile Include="Views\IContactDetailsView.cs" />
+    <Compile Include="Commands\SetSelectedContactCommand.cs" />
+    <Compile Include="Config\BaseAppContext.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
@@ -55,6 +57,7 @@
     <Folder Include="Views\" />
     <Folder Include="Invokers\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="Config\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib">

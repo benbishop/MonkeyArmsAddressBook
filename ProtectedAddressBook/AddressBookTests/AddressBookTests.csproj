@@ -42,6 +42,8 @@
     <Compile Include="Models\PersonModelTests.cs" />
     <Compile Include="Mediators\ContactsListViewMediatorTests.cs" />
     <Compile Include="Mediators\ContactDetailsViewMediatorTests.cs" />
+    <Compile Include="Commands\GetContactsCommandTests.cs" />
+    <Compile Include="Commands\SetSelectedContactCommandTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -66,5 +68,6 @@
   <ItemGroup>
     <Folder Include="Mediators\" />
     <Folder Include="Models\" />
+    <Folder Include="Commands\" />
   </ItemGroup>
 </Project>
