@@ -7,6 +7,7 @@ using MonkeyArms.LockedAddressBook.Core.Config;
 using MonkeyArms;
 using MonkeyArms.LockedAddressBook.Delegates;
 using MonkeyArms.LockedAddressBook.Core.Commands;
+using MonkeyArms.LockedAddressBook.IOS.ViewControllers;
 
 namespace AddressBookIOS
 {
@@ -18,7 +19,7 @@ namespace AddressBookIOS
 	{
 		// class-level declarations
 		UIWindow window;
-		AddressBookIOSViewController viewController;
+		UINavigationController rootController;
 		//
 		// This method is invoked when the application has loaded and is ready to run. In this 
 		// method you should instantiate the window, load the UI into it and then make the window
@@ -34,8 +35,10 @@ namespace AddressBookIOS
 
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 			
-			viewController = new AddressBookIOSViewController ();
-			window.RootViewController = viewController;
+			rootController = new UINavigationController ();
+			window.RootViewController = rootController;
+
+			rootController.PushViewController (new PasswordViewController (), false);
 			window.MakeKeyAndVisible ();
 			
 			return true;

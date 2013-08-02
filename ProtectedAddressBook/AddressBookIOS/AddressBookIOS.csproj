@@ -87,6 +87,7 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Delegates\" />
+    <Folder Include="ViewControllers\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -94,14 +95,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="AddressBookIOSViewController.cs" />
-    <Compile Include="AddressBookIOSViewController.designer.cs">
-      <DependentUpon>AddressBookIOSViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="Delegates\GetContactsDelegate.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterfaceDefinition Include="AddressBookIOSViewController.xib" />
+    <Compile Include="ViewControllers\PasswordViewController.cs" />
+    <Compile Include="ViewControllers\ContactsListViewController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
