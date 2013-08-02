@@ -1,18 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AddressBookAndroid/MainApplication.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AddressBookCore/Mediators/PasswordViewMediator.cs">
     <Files>
-      <File FileName="AddressBookAndroid/MainApplication.cs" Line="21" Column="3" />
+      <File FileName="AddressBookAndroid/MainApplication.cs" Line="29" Column="1" />
+      <File FileName="AddressBookAndroid/MainActivity.cs" Line="26" Column="20" />
+      <File FileName="AddressBookAndroid/Resources/values/Strings.xml" Line="4" Column="65" />
+      <File FileName="AddressBookAndroid/ContactsListActivity.cs" Line="60" Column="30" />
+      <File FileName="AddressBookCore/Mediators/PasswordViewMediator.cs" Line="40" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="AddressBookAndroid" expanded="True">
-            <Node name="MainApplication.cs" selected="True" />
-          </Node>
-          <Node name="AddressBookTests" expanded="True">
+          <Node name="AddressBookAndroid" expanded="True" selected="True" />
+          <Node name="AddressBookCore" expanded="True">
+            <Node name="Invokers" expanded="True" />
             <Node name="Mediators" expanded="True" />
-            <Node name="Models" expanded="True" />
+            <Node name="Views" expanded="True" />
           </Node>
           <Node name="MonkeyArmsFramework" expanded="True" />
         </State>
@@ -23,19 +26,17 @@
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
       </Pad>
-      <Pad Id="ConnectionManagerPad">
-        <State selected="True" />
-      </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="ConnectionManagerPad">
+        <State selected="True" />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Ben/Documents/Presentations/360Stack/repo/ProtectedAddressBook/AddressBookAndroid/MainApplication.cs" line="21" column="3" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AddressBookAndroid AndroidDeviceId-Debug="emulator-5554" />
+  <MonoDevelop.Ide.ItemProperties.AddressBookAndroid AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>

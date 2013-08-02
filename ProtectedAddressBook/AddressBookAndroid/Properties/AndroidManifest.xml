@@ -3,4 +3,6 @@
 	<uses-sdk />
 	<application android:label="AddressBookAndroid">
 	</application>
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
 </manifest>

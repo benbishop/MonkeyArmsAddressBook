@@ -53,6 +53,7 @@
     <Compile Include="Delegates\GetContactsDelegate.cs" />
     <Compile Include="MainApplication.cs" />
     <Compile Include="ContactsListActivity.cs" />
+    <Compile Include="Adapters\ContactsListAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -63,6 +64,8 @@
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\ContactsListLayout.axml" />
+    <AndroidResource Include="Resources\layout\ContactListItem.axml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -84,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Delegates\" />
+    <Folder Include="Adapters\" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>

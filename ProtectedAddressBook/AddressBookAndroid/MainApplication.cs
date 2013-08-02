@@ -20,7 +20,7 @@ namespace MonkeyArms.LockedAddressBook.Android
 			//platform specific mappings
 			DI.MapClassToInterface<GetContactsDelegate, IGetContactsDelegate> ();
 
-
+			GetContactsDelegate.ABook = new Xamarin.Contacts.AddressBook (this.ApplicationContext);
 		
 		}
 
