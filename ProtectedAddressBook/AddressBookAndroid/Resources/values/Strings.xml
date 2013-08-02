@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">AddressBookAndroid</string>
+
+	<string name="enterPasswordPlaceholder">Enter Password</string>
+	<string name="submitLabel">Submit</string>	
+	<string name="incorrectPassword">Sorry, your password was incorrect</string>
 </resources>

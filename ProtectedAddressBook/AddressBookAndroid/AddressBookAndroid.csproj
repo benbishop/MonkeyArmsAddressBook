@@ -52,6 +52,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Delegates\GetContactsDelegate.cs" />
     <Compile Include="MainApplication.cs" />
+    <Compile Include="ContactsListActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
