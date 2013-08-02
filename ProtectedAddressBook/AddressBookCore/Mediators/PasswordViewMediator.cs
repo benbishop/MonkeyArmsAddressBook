@@ -1,10 +1,14 @@
 using System;
 using MonkeyArms.LockedAddressBook.Core.Views;
+using MonkeyArms.LockedAddressBook.Core.Invokers;
 
 namespace MonkeyArms.LockedAddressBook.Core.Mediators
 {
 	public class PasswordViewMediator:Mediator
 	{
+
+		[Inject]
+		public GetContactsInvoker GetContactsInvoker;
 
 		protected IPasswordView View;
 
@@ -35,6 +39,7 @@ namespace MonkeyArms.LockedAddressBook.Core.Mediators
 				View.ShowIncorrectPasswordPrompt ();
 			} else {
 				View.UnLock ();
+				GetContactsInvoker.Invoke (null);
 			}
 		}
 	}
