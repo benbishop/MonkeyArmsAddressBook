@@ -26,7 +26,7 @@ namespace MonkeyArms.LockedAddressBook.Android
 
 		public void GoContactDetails ()
 		{
-			throw new NotImplementedException ();
+			StartActivity (typeof(ContactDetailsActivity));
 		}
 
 		private List<Person> contacts;

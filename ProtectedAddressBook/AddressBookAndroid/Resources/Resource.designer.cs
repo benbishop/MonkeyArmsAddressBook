@@ -60,17 +60,23 @@ namespace MonkeyArms.LockedAddressBook.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int contactsListView = 2131034113;
+			// aapt resource value: 0x7f060002
+			public const int contactDetailsListVIew = 2131099650;
 			
-			// aapt resource value: 0x7f050000
-			public const int labelTextView = 2131034112;
+			// aapt resource value: 0x7f060003
+			public const int contactsListView = 2131099651;
 			
-			// aapt resource value: 0x7f050002
-			public const int passwordText = 2131034114;
+			// aapt resource value: 0x7f060000
+			public const int labelTextView = 2131099648;
 			
-			// aapt resource value: 0x7f050003
-			public const int submitButton = 2131034115;
+			// aapt resource value: 0x7f060004
+			public const int passwordText = 2131099652;
+			
+			// aapt resource value: 0x7f060005
+			public const int submitButton = 2131099653;
+			
+			// aapt resource value: 0x7f060001
+			public const int valueTextView = 2131099649;
 			
 			static Id()
 			{
@@ -86,13 +92,19 @@ namespace MonkeyArms.LockedAddressBook.Android
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ContactListItem = 2130903040;
+			public const int ContactDetailItem = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int ContactsListLayout = 2130903041;
+			public const int ContactDetailsList = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int ContactListItem = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int ContactsListLayout = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
 			
 			static Layout()
 			{
@@ -110,8 +122,14 @@ namespace MonkeyArms.LockedAddressBook.Android
 			// aapt resource value: 0x7f040000
 			public const int enterPasswordPlaceholder = 2130968576;
 			
+			// aapt resource value: 0x7f040003
+			public const int firstNameLabel = 2130968579;
+			
 			// aapt resource value: 0x7f040002
 			public const int incorrectPassword = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int lastNameLabel = 2130968580;
 			
 			// aapt resource value: 0x7f040001
 			public const int submitLabel = 2130968577;
@@ -122,6 +140,22 @@ namespace MonkeyArms.LockedAddressBook.Android
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int TableItem = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}

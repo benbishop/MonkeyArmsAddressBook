@@ -5,11 +5,10 @@
     android:layout_height="fill_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-    <TextView
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+    <ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/labelTextView"
-        style="@style/TableItem" />
+        android:id="@+id/contactDetailsListVIew" />
 </LinearLayout>

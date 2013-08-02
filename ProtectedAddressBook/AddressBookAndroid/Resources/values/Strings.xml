@@ -4,4 +4,7 @@
 	<string name="enterPasswordPlaceholder">Enter Password</string>
 	<string name="submitLabel">Submit</string>	
 	<string name="incorrectPassword">Sorry, your password was incorrect</string>
+	
+	<string name="firstNameLabel">First Name</string>	
+	<string name="lastNameLabel">Last Name</string>	
 </resources>

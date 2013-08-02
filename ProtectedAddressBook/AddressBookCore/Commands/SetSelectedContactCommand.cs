@@ -6,6 +6,7 @@ namespace MonkeyArms.LockedAddressBook.Core.Commands
 {
 	public class SetSelectedContactCommand:Command
 	{
+		[Inject]
 		public ContactDetailsViewModel VM;
 
 		#region implemented abstract members of Command

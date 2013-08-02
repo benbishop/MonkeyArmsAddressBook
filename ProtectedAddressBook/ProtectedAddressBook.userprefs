@@ -1,23 +1,36 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="AddressBookCore/Mediators/PasswordViewMediator.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="AddressBookAndroid/MainApplication.cs" Line="29" Column="1" />
+      <File FileName="AddressBookAndroid/MainApplication.cs" Line="23" Column="89" />
       <File FileName="AddressBookAndroid/MainActivity.cs" Line="26" Column="20" />
       <File FileName="AddressBookAndroid/Resources/values/Strings.xml" Line="4" Column="65" />
-      <File FileName="AddressBookAndroid/ContactsListActivity.cs" Line="60" Column="30" />
-      <File FileName="AddressBookCore/Mediators/PasswordViewMediator.cs" Line="40" Column="38" />
+      <File FileName="AddressBookAndroid/ContactsListActivity.cs" Line="39" Column="10" />
+      <File FileName="AddressBookAndroid/Adapters/ContactsListAdapter.cs" Line="42" Column="1" />
+      <File FileName="AddressBookAndroid/Resources/values/Style.xml" Line="7" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="AddressBookAndroid" expanded="True" selected="True" />
+          <Node name="AddressBookAndroid" expanded="True">
+            <Node name="Adapters" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+              <Node name="values" expanded="True">
+                <Node name="Style.xml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
           <Node name="AddressBookCore" expanded="True">
+            <Node name="Commands" expanded="True" />
+            <Node name="Config" expanded="True" />
             <Node name="Invokers" expanded="True" />
             <Node name="Mediators" expanded="True" />
             <Node name="Views" expanded="True" />
           </Node>
-          <Node name="MonkeyArmsFramework" expanded="True" />
+          <Node name="AddressBookTests" expanded="True">
+            <Node name="Mediators" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="ClassPad">
