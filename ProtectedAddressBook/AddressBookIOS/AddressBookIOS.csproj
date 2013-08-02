@@ -100,6 +100,8 @@
     <Compile Include="ViewControllers\PasswordViewController.cs" />
     <Compile Include="ViewControllers\ContactsListViewController.cs" />
     <Compile Include="TableSources\ContactsListTableSource.cs" />
+    <Compile Include="ViewControllers\ContactDetailsViewController.cs" />
+    <Compile Include="TableSources\ContactDetailsTableSource.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

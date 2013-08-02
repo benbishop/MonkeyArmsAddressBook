@@ -13,7 +13,7 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 		public event EventHandler ContactSelected = delegate {};
 		public void GoContactDetails ()
 		{
-			throw new NotImplementedException ();
+			NavigationController.PushViewController (new ContactDetailsViewController (), true);
 		}
 
 		private List<Person> contacts;
@@ -45,11 +45,12 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 
 		public ContactsListViewController ()
 		{
+			this.Title = "Contacts";
 		}
 
 	
 
-		public override void ViewDidAppear (bool animated)
+		public override void ViewWillAppear (bool animated)
 		{
 			base.ViewDidAppear (animated);
 			DI.RequestMediator (this);

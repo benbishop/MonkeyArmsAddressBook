@@ -44,6 +44,7 @@ namespace MonkeyArms.LockedAddressBook.Core.Mediators
 		{
 
 			VM.ContactsChanged -= HandleContactsChanged;
+			View.ContactSelected -= HandleContactSelected;
 		}
 
 		#endregion
