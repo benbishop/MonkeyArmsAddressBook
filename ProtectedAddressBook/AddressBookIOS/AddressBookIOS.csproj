@@ -90,6 +90,7 @@
     <Folder Include="ViewControllers\" />
     <Folder Include="TableSources\" />
     <Folder Include="Images\" />
+    <Folder Include="Images\loading\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -140,5 +141,11 @@
     <BundleResource Include="Resources\Icon-Small-50.png" />
     <BundleResource Include="Images\app_icon_29.png" />
     <BundleResource Include="Images\app_icon_58.png" />
+    <BundleResource Include="Images\loading\loading_320_480.png" />
+    <BundleResource Include="Images\loading\loading_640_1136.png" />
+    <BundleResource Include="Images\loading\loading_640_960.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Default-568h%402x.png" />
   </ItemGroup>
 </Project>
