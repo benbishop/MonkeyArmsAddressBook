@@ -52,6 +52,7 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 
 		public override void ViewWillAppear (bool animated)
 		{
+
 			base.ViewDidAppear (animated);
 			DI.RequestMediator (this);
 		}

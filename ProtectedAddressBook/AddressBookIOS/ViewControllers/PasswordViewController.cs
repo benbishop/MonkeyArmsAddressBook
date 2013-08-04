@@ -36,7 +36,6 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 
 		public PasswordViewController ():base()
 		{
-			this.View.BackgroundColor = UIColor.Gray;
 			this.Title = "Enter Password";
 		}
 
@@ -45,12 +44,14 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 			base.ViewDidLoad ();
 			BuildUI ();
 			AddEventListeners ();
+
 		}
 
 		public override void ViewDidAppear (bool animated)
 		{
 			base.ViewDidAppear (animated);
 			DI.RequestMediator (this);
+
 		}
 
 		public override void ViewDidDisappear (bool animated)
@@ -61,12 +62,16 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 
 		void BuildUI ()
 		{
+			View.BackgroundColor = UIColor.FromPatternImage (UIImage.FromBundle ("Images/background/app_background"));
+
 			const int itemHeight = 50;
 			const int padding = 10;
 
 			var itemWidth = View.Bounds.Width - (padding * 2);
 
 			PasswordTextField = new UITextField (new RectangleF (padding, padding, itemWidth, itemHeight));
+			PasswordTextField.Font = UIFont.FromName ("Helvetica", 24f);
+			PasswordTextField.VerticalAlignment = UIControlContentVerticalAlignment.Center;
 			PasswordTextField.SecureTextEntry = true;
 			PasswordTextField.BorderStyle = UITextBorderStyle.Bezel;
 			PasswordTextField.BackgroundColor = UIColor.White;
@@ -77,7 +82,10 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 			SubmitButton = UIButton.FromType (UIButtonType.RoundedRect);
 			var buttonY = PasswordTextField.Frame.Y + PasswordTextField.Frame.Height + padding;
 			SubmitButton.Frame = new RectangleF (padding, buttonY, itemWidth, itemHeight);
+			SubmitButton.SetTitleColor (UIColor.White, UIControlState.Normal);
+			SubmitButton.Font = UIFont.FromName ("Helvetica-Bold", 20f);
 			SubmitButton.SetTitle ("Submit", UIControlState.Normal);
+			SubmitButton.SetBackgroundImage (UIImage.FromBundle ("Images/background/OrangeButtonBackground"), UIControlState.Normal);
 			View.AddSubview (SubmitButton);
 
 

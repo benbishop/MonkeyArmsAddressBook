@@ -36,6 +36,9 @@ namespace AddressBookIOS
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 			
 			rootController = new UINavigationController ();
+			rootController.NavigationBar.SetBackgroundImage(UIImage.FromBundle("Images/background/header_background"), UIBarMetrics.Default);
+			
+
 			window.RootViewController = rootController;
 
 			rootController.PushViewController (new PasswordViewController (), false);
