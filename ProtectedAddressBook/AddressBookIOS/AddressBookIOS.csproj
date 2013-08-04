@@ -89,6 +89,7 @@
     <Folder Include="Delegates\" />
     <Folder Include="ViewControllers\" />
     <Folder Include="TableSources\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -130,4 +131,14 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <BundleResource Include="Images\app_icon_114.png" />
+    <BundleResource Include="Images\app_icon_57.png" />
+    <BundleResource Include="Images\app_icon_72.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\Icon-Small-50.png" />
+    <BundleResource Include="Images\app_icon_29.png" />
+    <BundleResource Include="Images\app_icon_58.png" />
+  </ItemGroup>
 </Project>

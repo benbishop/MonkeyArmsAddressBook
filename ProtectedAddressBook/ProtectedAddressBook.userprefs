@@ -1,32 +1,32 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone.6.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AddressBookAndroid/MainActivity.cs">
     <Files>
-      <File FileName="AddressBookAndroid/MainApplication.cs" Line="23" Column="89" />
-      <File FileName="AddressBookAndroid/MainActivity.cs" Line="26" Column="20" />
-      <File FileName="AddressBookAndroid/Resources/values/Strings.xml" Line="4" Column="65" />
-      <File FileName="AddressBookAndroid/ContactsListActivity.cs" Line="39" Column="10" />
-      <File FileName="AddressBookAndroid/Adapters/ContactsListAdapter.cs" Line="42" Column="1" />
-      <File FileName="AddressBookAndroid/Resources/values/Style.xml" Line="7" Column="2" />
+      <File FileName="AddressBookIOS/Delegates/GetContactsDelegate.cs" Line="27" Column="5" />
+      <File FileName="AddressBookTests/Mediators/ContactDetailsViewMediatorTests.cs" Line="1" Column="1" />
+      <File FileName="AddressBookCore/Commands/IGetContactsDelegate.cs" Line="13" Column="18" />
+      <File FileName="AddressBookIOS/Main.cs" Line="1" Column="1" />
+      <File FileName="AddressBookIOS/AppDelegate.cs" Line="34" Column="66" />
+      <File FileName="AddressBookCore/Views/IContactDetailsView.cs" Line="1" Column="1" />
+      <File FileName="AddressBookCore/Views/IPasswordView.cs" Line="13" Column="14" />
+      <File FileName="AddressBookIOS/ViewControllers/PasswordViewController.cs" Line="53" Column="4" />
+      <File FileName="AddressBookCore/Mediators/PasswordViewMediator.cs" Line="36" Column="22" />
+      <File FileName="AddressBookAndroid/MainActivity.cs" Line="13" Column="47" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="AddressBookAndroid" expanded="True">
-            <Node name="Adapters" expanded="True" />
-            <Node name="Resources" expanded="True">
-              <Node name="layout" expanded="True" />
-              <Node name="values" expanded="True">
-                <Node name="Style.xml" selected="True" />
-              </Node>
-            </Node>
+            <Node name="MainActivity.cs" selected="True" />
           </Node>
           <Node name="AddressBookCore" expanded="True">
             <Node name="Commands" expanded="True" />
-            <Node name="Config" expanded="True" />
-            <Node name="Invokers" expanded="True" />
             <Node name="Mediators" expanded="True" />
             <Node name="Views" expanded="True" />
+          </Node>
+          <Node name="AddressBookIOS" expanded="True">
+            <Node name="Delegates" expanded="True" />
+            <Node name="ViewControllers" expanded="True" />
           </Node>
           <Node name="AddressBookTests" expanded="True">
             <Node name="Mediators" expanded="True" />
@@ -51,5 +51,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.AddressBookAndroid AndroidDeviceId-Debug="emulator-5554" MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.AddressBookAndroid MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
 </Properties>
