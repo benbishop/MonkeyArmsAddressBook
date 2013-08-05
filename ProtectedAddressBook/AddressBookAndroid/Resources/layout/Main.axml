@@ -2,16 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_background">
+    <ImageView
+        android:src="@drawable/mono"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        style="@style/LoginScreenItem" />
     <EditText
         android:inputType="textPassword"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/passwordText"
-        android:hint="@string/enterPasswordPlaceholder" />
+        android:hint="@string/enterPasswordPlaceholder"
+        style="@style/LoginScreenItem"
+        android:height="60dp" />
     <Button
         android:text="@string/submitLabel"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/submitButton" />
+        android:layout_height="50dp"
+        android:id="@+id/submitButton"
+        android:background="@drawable/OrangeButtonBackground"
+        style="@style/LoginScreenItem"
+        android:textColor="#ffffffff"
+        android:capitalize="characters"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:height="60dp" />
 </LinearLayout>

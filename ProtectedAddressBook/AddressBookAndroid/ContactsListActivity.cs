@@ -14,7 +14,7 @@ using MonkeyArms.LockedAddressBook.Android.Adapters;
 
 namespace MonkeyArms.LockedAddressBook.Android
 {
-	[Activity (Label = "ContactsListActivity")]			
+	[Activity (Label = "Contacts")]			
 	public class ContactsListActivity : Activity, IContactsListView
 	{
 

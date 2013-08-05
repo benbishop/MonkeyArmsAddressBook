@@ -29,6 +29,7 @@ namespace MonkeyArms.LockedAddressBook.Android
 			}
 			set {
 				contact = value;
+				this.Title = String.Format("{0}, {1}", contact.LastName, contact.FirstName);
 				UpdateDetailsListViewAdapter ();
 			}
 		}

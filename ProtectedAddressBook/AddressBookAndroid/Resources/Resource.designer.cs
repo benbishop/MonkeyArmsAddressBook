@@ -45,7 +45,37 @@ namespace MonkeyArms.LockedAddressBook.Android
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int app_background = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int app_icon_114 = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int app_icon_29 = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int app_icon_50 = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int app_icon_57 = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int app_icon_58 = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int app_icon_72 = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int header_background = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int Icon = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int mono = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int OrangeButtonBackground = 2130837514;
 			
 			static Drawable()
 			{
@@ -66,14 +96,17 @@ namespace MonkeyArms.LockedAddressBook.Android
 			// aapt resource value: 0x7f060003
 			public const int contactsListView = 2131099651;
 			
+			// aapt resource value: 0x7f060004
+			public const int imageView1 = 2131099652;
+			
 			// aapt resource value: 0x7f060000
 			public const int labelTextView = 2131099648;
 			
-			// aapt resource value: 0x7f060004
-			public const int passwordText = 2131099652;
-			
 			// aapt resource value: 0x7f060005
-			public const int submitButton = 2131099653;
+			public const int passwordText = 2131099653;
+			
+			// aapt resource value: 0x7f060006
+			public const int submitButton = 2131099654;
 			
 			// aapt resource value: 0x7f060001
 			public const int valueTextView = 2131099649;
@@ -148,7 +181,10 @@ namespace MonkeyArms.LockedAddressBook.Android
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int TableItem = 2131034112;
+			public const int LoginScreenItem = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int TableItem = 2131034113;
 			
 			static Style()
 			{

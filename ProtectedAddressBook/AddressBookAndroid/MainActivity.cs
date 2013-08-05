@@ -6,10 +6,11 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using MonkeyArms.LockedAddressBook.Core.Views;
+using Android.Content.PM;
 
 namespace MonkeyArms.LockedAddressBook.Android
 {
-	[Activity (Label = "AddressBookAndroid", MainLauncher = true)]
+	[Activity (Label = "Log In", MainLauncher = true, ScreenOrientation = ScreenOrientation.Portrait )]
 	public class MainActivity : Activity, IPasswordView
 	{
 

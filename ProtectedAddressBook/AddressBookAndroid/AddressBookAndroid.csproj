@@ -61,6 +61,17 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Resources\drawable\background\OrangeButtonBackground.png" />
+    <None Include="Resources\drawable\background\OrangeButtonBackground%402x.png" />
+    <None Include="Resources\drawable\background\app_background.png" />
+    <None Include="Resources\drawable\background\app_background%402x.png" />
+    <None Include="Resources\drawable\background\header_background.png" />
+    <None Include="Resources\drawable\background\header_background%402x.png" />
+    <None Include="Resources\drawable\loading\loading_320_480.png" />
+    <None Include="Resources\drawable\loading\loading_640_1136.png" />
+    <None Include="Resources\drawable\loading\loading_640_960.png" />
+    <None Include="Resources\drawable\logos\mono.png" />
+    <None Include="Resources\drawable\logos\mono%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -71,6 +82,16 @@
     <AndroidResource Include="Resources\layout\ContactDetailItem.axml" />
     <AndroidResource Include="Resources\values\Style.xml" />
     <AndroidResource Include="Resources\layout\ContactDetailsList.axml" />
+    <AndroidResource Include="Resources\drawable\app_icon_114.png" />
+    <AndroidResource Include="Resources\drawable\app_icon_29.png" />
+    <AndroidResource Include="Resources\drawable\app_icon_50.png" />
+    <AndroidResource Include="Resources\drawable\app_icon_57.png" />
+    <AndroidResource Include="Resources\drawable\app_icon_58.png" />
+    <AndroidResource Include="Resources\drawable\app_icon_72.png" />
+    <AndroidResource Include="Resources\drawable\app_background.png" />
+    <AndroidResource Include="Resources\drawable\header_background.png" />
+    <AndroidResource Include="Resources\drawable\mono.png" />
+    <AndroidResource Include="Resources\drawable\OrangeButtonBackground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -93,6 +114,8 @@
   <ItemGroup>
     <Folder Include="Delegates\" />
     <Folder Include="Adapters\" />
+    <Folder Include="Resources\drawable\background\" />
+    <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
