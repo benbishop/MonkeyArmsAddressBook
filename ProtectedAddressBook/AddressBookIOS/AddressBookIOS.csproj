@@ -92,6 +92,7 @@
     <Folder Include="Images\" />
     <Folder Include="Images\loading\" />
     <Folder Include="Images\background\" />
+    <Folder Include="Images\logos\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -154,5 +155,7 @@
     <BundleResource Include="Images\background\header_background%402x.png" />
     <BundleResource Include="Images\background\OrangeButtonBackground.png" />
     <BundleResource Include="Images\background\OrangeButtonBackground%402x.png" />
+    <BundleResource Include="Images\logos\mono.png" />
+    <BundleResource Include="Images\logos\mono%402x.png" />
   </ItemGroup>
 </Project>

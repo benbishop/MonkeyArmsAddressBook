@@ -64,12 +64,22 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 		{
 			View.BackgroundColor = UIColor.FromPatternImage (UIImage.FromBundle ("Images/background/app_background"));
 
+
+
+
+
 			const int itemHeight = 50;
 			const int padding = 10;
 
+			var logo = new UIImageView (new RectangleF(View.Bounds.Width/2 - 191/2, padding, 191, 226));
+			logo.Image = UIImage.FromBundle ("Images/logos/mono");
+			View.AddSubview (logo);
+
+
+
 			var itemWidth = View.Bounds.Width - (padding * 2);
 
-			PasswordTextField = new UITextField (new RectangleF (padding, padding, itemWidth, itemHeight));
+			PasswordTextField = new UITextField (new RectangleF (padding, logo.Frame.Y + logo.Frame.Height + padding, itemWidth, itemHeight));
 			PasswordTextField.Font = UIFont.FromName ("Helvetica", 24f);
 			PasswordTextField.VerticalAlignment = UIControlContentVerticalAlignment.Center;
 			PasswordTextField.SecureTextEntry = true;
@@ -93,7 +103,15 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 
 		void AddEventListeners ()
 		{
+			PasswordTextField.EditingDidBegin += (object sender, EventArgs e) => {
+				SlideContent(-200);
+
+
+			};
+
+
 			PasswordTextField.ShouldReturn = delegate {
+				SlideContent(0);
 				PasswordTextField.ResignFirstResponder ();
 				return true;
 			};
@@ -101,6 +119,15 @@ namespace MonkeyArms.LockedAddressBook.IOS.ViewControllers
 			SubmitButton.TouchUpInside += (object sender, EventArgs e) => {
 				PasswordSubmitted(this, EventArgs.Empty);
 			};
+		}
+
+		protected void SlideContent(int offset)
+		{
+			UIView.BeginAnimations ("slideContent");
+			UIView.SetAnimationDuration (.5);
+			UIView.SetAnimationCurve (UIViewAnimationCurve.EaseOut);
+			View.Frame = new RectangleF (0, offset, View.Bounds.Width, View.Bounds.Height);
+			UIView.CommitAnimations ();
 		}
 	}
 }
