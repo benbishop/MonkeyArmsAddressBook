@@ -1,20 +1,20 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="AddressBookAndroid/MainActivity.cs" Line="12" Column="62" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="AddressBookAndroid" expanded="True" selected="True">
+          <Node name="AddressBookAndroid" expanded="True">
+            <Node name="Assets" expanded="True" />
             <Node name="Resources" expanded="True">
-              <Node name="drawable" expanded="True" />
-              <Node name="layout" expanded="True" />
+              <Node name="layout" expanded="True">
+                <Node name="ContactDetailItem.axml" selected="True" />
+              </Node>
             </Node>
           </Node>
           <Node name="AddressBookTests" expanded="True">
             <Node name="Mediators" expanded="True" />
+            <Node name="Models" expanded="True" />
           </Node>
         </State>
       </Pad>
