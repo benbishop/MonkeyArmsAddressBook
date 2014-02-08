@@ -48,6 +48,14 @@
     <Compile Include="Views\IContactDetailsView.cs" />
     <Compile Include="Commands\SetSelectedContactCommand.cs" />
     <Compile Include="Config\BaseAppContext.cs" />
+    <Compile Include="MonkeyArms\Actor.cs" />
+    <Compile Include="MonkeyArms\Command.cs" />
+    <Compile Include="MonkeyArms\Context.cs" />
+    <Compile Include="MonkeyArms\DI.cs" />
+    <Compile Include="MonkeyArms\DIUtil.cs" />
+    <Compile Include="MonkeyArms\Invoker.cs" />
+    <Compile Include="MonkeyArms\InvokerMap.cs" />
+    <Compile Include="MonkeyArms\Mediator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
@@ -63,12 +71,9 @@
     <Reference Include="mscorlib">
       <HintPath>..\DLL\mscorlib.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\MonkeyArms\MonkeyArms\MonkeyArmsFramework\MonkeyArmsFramework.csproj">
-      <Project>{A58D8DAE-62D2-40C4-9361-5BAF30CF1747}</Project>
-      <Name>MonkeyArmsFramework</Name>
-    </ProjectReference>
+    <Reference Include="TinyIOC">
+      <HintPath>..\packages\MonkeyArms.1.0.16\lib\TinyIOC.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>
@@ -79,4 +84,7 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>

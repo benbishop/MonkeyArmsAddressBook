@@ -33,6 +33,7 @@ namespace MonkeyArms.LockedAddressBook.Android.Adapters
 			}
 
 			var label = view.FindViewById (Resource.Id.labelTextView) as TextView;
+
 			label.Text = String.Format("{0}, {1}", Contacts[position].LastName, Contacts [position].FirstName);
 			return view;
 		}

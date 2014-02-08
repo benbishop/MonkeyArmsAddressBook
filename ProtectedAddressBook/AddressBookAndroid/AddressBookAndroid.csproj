@@ -96,7 +96,6 @@
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
     <XamarinComponentReference Include="xamarin.mobile">
-      <InstallationInProgress>False</InstallationInProgress>
       <Version>0.6.3</Version>
       <Visible>False</Visible>
     </XamarinComponentReference>
@@ -105,10 +104,6 @@
     <ProjectReference Include="..\AddressBookCore\AddressBookCore.csproj">
       <Project>{33688577-6152-40DF-A58F-8F12FA367603}</Project>
       <Name>AddressBookCore</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\MonkeyArms\MonkeyArms\MonkeyArmsFramework\MonkeyArmsFramework.csproj">
-      <Project>{A58D8DAE-62D2-40C4-9361-5BAF30CF1747}</Project>
-      <Name>MonkeyArmsFramework</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
